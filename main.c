@@ -3,9 +3,7 @@
 
 int main( int argc, const char* argv[] )
 {
-    Car car1;
-    car1 = new_car();
+    Car car1 = new_car();
     car_setyear(car1, 1970);
-	printf( "\nHello World\n\n" );
-    printf("%i :)", car_getyear(car1));
+    printf("My car was build in: %i", car_getyear(car1));
 }
